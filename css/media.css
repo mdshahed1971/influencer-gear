@@ -1,18 +1,19 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .influencer{
+    /* banner start */
+    .banner{
         flex-direction: column-reverse;
         align-items: center;
     }
-    .i-content{
+    .b-content{
         margin-top: 20px;
-        padding-left: 15px;
+        padding-left: 30px;
     }
-    .i-content h2{
+    .b-content h2{
         font-size: 20px;
         margin: 0;
     }
-    .i-content p{
+    .b-content p{
         margin-top: 4px;
         font-size: 14px;
         margin-bottom: 15px;
@@ -20,64 +21,93 @@
     .Preebook{
         padding: 3px 15px !important;
     }
-    .i-img{
+    .b-img{
         width: 90%;
     }
-    .i-img img{
-        width: 100%;
-    }
-    
+    /* banner end */
+     /* popular start */
+     .popular{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+     }
+   .p-content h3{
+    font-size: 20px;
+   }
+   .p-content h5{
+    font-size: 18px;
+   }
+   /* popular end */
   }
   
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    .influencer{
+    /* banner start */
+    .banner{
         flex-direction: column-reverse;
         align-items: center;
     }
-    .i-content{
+    .b-content{
         margin-top: 30px;
     }
-    .i-content h2{
+    .b-content h2{
         font-size: 20px;
         margin: 0;
     }
-    .i-content p{
+    .b-content p{
         margin-top: 5px;
         font-size: 15px;
     }
     .Preebook{
         padding: 5px 20px !important;
     }
-
-  }
-   
-     
+   /* banner end */
+   /* popular start */
+   .popular{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   .p-content h3{
+    font-size: 20px;
+   }
+   .p-content h5{
+    font-size: 18px;
+   }
+   /* popular end */
+  } 
    /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-    .influencer{
-     
-    }
-    .i-content{
+    /* banner start */
+    .b-content{
      width: 40%;
     }
-    .i-content h2{
+    .b-content h2{
         font-size: 25px;
         margin-top: 16px;
     }
-    .i-content p{
+    .b-content p{
         font-size: 15px;
     }
-    .i-img{
+    .b-img{
     width: 40%;
     }
-    .i-img img{
+    .b-img img{
         width: 100%;
     }
     .Preebook{
         padding: 7px 30px !important;
     }
+    /* banner end */
+    /* popular start */
+    .p-content h3{
+        font-size: 20px;
+       }
+    .p-content h5{
+        font-size: 18px;
+       }
+       /* popular end */
   }
+
   
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
