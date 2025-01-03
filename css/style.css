@@ -96,6 +96,7 @@ font-weight: 500;
 .Influencer{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 .i-content h2{
     color: #0A0826;
@@ -115,3 +116,20 @@ font-weight: 500;
     padding: 10px 30px !important;
 }
 /* Influencer end */
+/* footer start */
+footer{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+footer h3{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+footer p{
+    color: #D9DBE1;
+font-size: 14px;
+font-weight: 500;
+}
+/* footer end */
