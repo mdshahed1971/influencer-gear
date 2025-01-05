@@ -38,6 +38,40 @@
     font-size: 18px;
    }
    /* popular end */
+    /* Influencer start */
+    .Influencer{
+        flex-direction: column;
+       }
+       .i-img{
+        padding-left: 40px;
+       }
+       .i-img img{
+        width: 360px;
+       }
+       .i-content{
+        padding-left: 50px;
+       }
+       .i-content h2{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 20px;
+       }
+       .i-content p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 17px;
+       }
+       .Preebook{
+        padding: 3px 15px !important;
+       }
+       /* influencer end */
+        /* footer start */
+   footer h3{
+    font-size: 18px;
+    font-weight: 550;
+   }
+   /* footer end */
   }
   
   /* Small devices (landscape phones, 576px and up) */
@@ -66,6 +100,7 @@
    .popular{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 75px;
    }
    .p-content h3{
     font-size: 20px;
@@ -74,6 +109,40 @@
     font-size: 18px;
    }
    /* popular end */
+   /* Influencer start */
+   .Influencer{
+    flex-direction: column;
+   }
+   .i-img{
+    padding-left: 50px;
+   }
+   .i-img img{
+    width: 415px;
+   }
+   .i-content{
+    padding-left: 50px;
+   }
+   .i-content h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+   }
+   .i-content p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 17px;
+   }
+   .Preebook{
+    padding: 3px 15px !important;
+   }
+   /* influencer end */
+   /* footer start */
+   footer h3{
+    font-size: 20px;
+    font-weight: 550;
+   }
+   /* footer end */
   } 
    /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -106,6 +175,36 @@
         font-size: 18px;
        }
        /* popular end */
+       /* influencer start */
+       .i-img{
+        margin-left: 60px;
+        margin-top: 24px;
+       }
+       .i-img img{
+        width: 380px;
+       }
+       .i-content{
+        margin-left: 60px;
+       }
+       .i-content p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+       }
+       .i-content h2{
+        font-size: 19px;
+       }
+       .Preebook{
+        padding: 5px 20px;
+       }
+       /* influencer end */
+       /* footer start */
+       footer h3{
+        font-size: 22px;
+        font-weight: 550;
+       }
+       /* footer end */
   }
 
   
