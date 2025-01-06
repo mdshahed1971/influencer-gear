@@ -7,7 +7,7 @@
     }
     .b-content{
         margin-top: 20px;
-        padding-left: 30px;
+        padding-left: 15px;
     }
     .b-content h2{
         font-size: 20px;
@@ -24,6 +24,9 @@
     .b-img{
         width: 90%;
     }
+     .b-img img{
+        width: 100%;
+     }
     /* banner end */
      /* popular start */
      .popular{
@@ -43,13 +46,14 @@
         flex-direction: column;
        }
        .i-img{
+        width: 80%;
         padding-left: 40px;
        }
        .i-img img{
-        width: 360px;
+        width: 100%;
        }
        .i-content{
-        padding-left: 50px;
+        padding-left: 30px;
        }
        .i-content h2{
         font-size: 16px;
@@ -99,7 +103,7 @@
    /* popular start */
    .popular{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     margin-bottom: 75px;
    }
    .p-content h3{
@@ -114,13 +118,13 @@
     flex-direction: column;
    }
    .i-img{
-    padding-left: 50px;
+    padding-left: 80px;
    }
    .i-img img{
     width: 415px;
    }
    .i-content{
-    padding-left: 50px;
+    padding-left: 80px;
    }
    .i-content h2{
     font-size: 22px;
@@ -168,6 +172,11 @@
     }
     /* banner end */
     /* popular start */
+    .popular{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 75px;
+    }
     .p-content h3{
         font-size: 20px;
        }
@@ -181,10 +190,10 @@
         margin-top: 24px;
        }
        .i-img img{
-        width: 380px;
+        width: 100%;
        }
        .i-content{
-        margin-left: 60px;
+        margin-left: 20px;
        }
        .i-content p{
     font-size: 14px;
